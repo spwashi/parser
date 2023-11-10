@@ -86,7 +86,7 @@ export class ParserDom {
     }
     resetCopyToClipboardButton() {
         this.controls.copy.onclick = e => {
-            e.preventDefault;
+            e.preventDefault();
             const copyText = JSON.stringify(this.state.tokens);
             console.log(this.state.tokens);
             // @ts-ignore
